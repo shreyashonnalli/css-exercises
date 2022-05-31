@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+.header{
+  font-size: larger;
+  padding: 8px;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,6 +24,14 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 8px;
+  display: flex;
+}
+
+.top-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .icon {
@@ -33,6 +45,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto;
+  margin-right: 8px;
 }
 
 .close-button {
@@ -51,6 +65,10 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 button.continue {
